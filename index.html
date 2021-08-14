@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla Javascript</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css"/>
+</head>
+
+<body>
+    <div class="container">
+        <div class="tasks">
+            <input type="text" placeholder="addTask" class="addInput" />
+            <button class="add">Add Task</button>
+            <button class="clearbtn">Clear All</button> 
+        </div>
+        <ul class="newtasks">
+            
+        </ul>
+
+        <div class="toast toastContent" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-body">
+                <div class="toasting">
+                    <h5>Do you want to delete all your Tasks</h5>
+                    <div class="mt-2 pt-2 border-top">
+                        <button type="button" class="btn btn-primary btn-sm btn-yes">
+                            Yes
+                        </button>
+                        <button type="button" class="btn btn-secondary btn-sm btn-no" data-bs-dismiss="toast">
+                            Nope
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="display"></div> <br>
+        <div class="items-display"></div>
+    </div>
+
+    <div class="additions">
+        
+    </div>
+    <script src="./assets/js/Main.js"></script>
+    <script src="./assets/js/sample.js"></script>
+    <!-- <script src="./all.js"></script> -->
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/jquery.js"></script>
+</body>
+
+</html>
